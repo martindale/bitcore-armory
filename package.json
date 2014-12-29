@@ -1,6 +1,6 @@
 {
   "name": "bitcore-armory",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Bitcore extension to manage Armory's Deterministic key derivation.",
   "author": "Leopoldo Godines <lg@leopoldogodines.com>",
   "main": "index.js",
@@ -25,8 +25,7 @@
   },
   "homepage": "https://github.com/leopoldogodines/bitcore-armory",
   "dependencies": {
-    "bitcore": "^0.8.5",
-    "buffer": "^3.0.0"
+    "bitcore": "^0.8.5"
   },
   "devDependencies": {
     "chai": "^1.10.0",

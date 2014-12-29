@@ -71,7 +71,7 @@ console.log(key1.toString() === manualKey1.toString()); // true
 var chainCode = rootPublicKey.chainCode;
 var rootPrivateKey = new bitcore.PrivateKey({bn: '842a15f2611ee9c7132137e3086015acfe13c6357c54794131392b3994a6423c', compressed: false, network: 'livenet'});
 
-var privateKey0 = bitcoreArmory.util.derive(rootPrivateKey, chainCode);
+var privateKey0 = bitcoreArmory.util.derivePrivateKey(rootPrivateKey, chainCode);
 console.log(privateKey0.toString()); //12fskvtYCqk44VC4RmutKzeXGdKmzGS2WBC6fuYf9ToL2hRHF1s
 console.log(privateKey0.toAddress().toString()); //1663H4t7h7uFyqH3nbBHRXbrz9ksfAukFf
 console.log(rootPublicKey.derive(0).toAddress().toString()); //1663H4t7h7uFyqH3nbBHRXbrz9ksfAukFf
