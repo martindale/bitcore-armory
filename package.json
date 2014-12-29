@@ -1,0 +1,45 @@
+{
+  "name": "bitcore-armory",
+  "version": "0.1.0",
+  "description": "Bitcore extension to manage Armory's Deterministic key derivation.",
+  "author": "Leopoldo Godines <lg@leopoldogodines.com>",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test",
+    "coverage": "gulp coverage",
+    "doc": "gulp jsdoc",
+    "lint": "gulp lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leopoldogodines/bitcore-armory.git"
+  },
+  "keywords": [
+    "bitcoin",
+    "bitcore",
+    "armory"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leopoldogodines/bitcore-armory/issues"
+  },
+  "homepage": "https://github.com/leopoldogodines/bitcore-armory",
+  "dependencies": {
+    "bitcore": "^0.8.5",
+    "buffers": "^0.1.1"
+  },
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "gulp": "^3.8.10",
+    "gulp-jshint": "^1.9.0",
+    "gulp-mocha": "^2.0.0",
+    "gulp-shell": "^0.2.11",
+    "gulp-util": "^3.0.1",
+    "istanbul": "^0.3.5",
+    "jsdoc": "^3.3.0-alpha13",
+    "jsdoc-to-markdown": "^0.5.9",
+    "mocha": "^2.1.0",
+    "more-fs": "^0.5.0",
+    "through2": "^0.6.3"
+  }
+}
